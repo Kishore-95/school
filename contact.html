@@ -26,7 +26,7 @@
         <!--End of nav-top-bar -->
        </div>
        <!-- Nav-bar -->
-           <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">EduLand</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,18 +51,49 @@
        </div>
    </header>
 <!-- End of header section -->
-
+<!-- contact-form -->
+<section class="contact py-3 bg-light" style="min-height: 80vh;">
+  <div class="container">
+    <h3 class="text-center">Contact Us</h3>
+    <p class="text-center">Please complete the fields below to submit a message, question or enquiry:</p>
+    <div class="card border-0 bg-transparent mx-5">
+      <form class="mx-5">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="col">
+            <input type="tel" class="form-control" placeholder="Enter your phone number">
+          </div>
+        </div>
+        <div class="pt-4">
+          <label class="text-start pb-3">Enter your query</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="type your message here" rows="10"></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<!--end contact-form -->
 <!-- Footer Section-->
-<footer class="bg-info">
+<footer class="bg-info py-3">
     <div class="container">
         <div class="d-flex justify-content-between">
-            <a href="index.html">Emblem</a>
+            <a href="index.html" class="fw-bolder text-dark text-decoration-none">EduLand</a>
             <div class="social-icons">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-dark px-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-dark px-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-dark px-3"><i class="bi bi-youtube"></i></a>
             </div>
-            <a href="#top">Go to top</a>
+            <a href="#top" class="text-dark text-decoration-none">Go to top</a>
         </div>
     </div>
 </footer>
